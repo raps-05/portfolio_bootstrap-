@@ -1,0 +1,297 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./pictures/profolic5.jpg);
+    background-color: #12061e;
+    font-family: cursive;
+   
+    /* background-size:cover; */
+    background-size: contain;
+    background-position:right;
+    background-attachment: fixed;
+   
+    background-repeat: no-repeat;
+    
+     
+}
+
+navbar{
+    background-color: antiquewhite;
+}
+.nav-link
+{
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.nav-link:active{
+    color: black;
+    background-color: aliceblue;
+}
+.navbar-brand{
+    font-size:1.75rem ;
+    font-weight:900;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: cursive;
+}
+.main{
+    /* background: url(./pictures/profolic4.jpg);
+    background-size:cover; */
+    width:100%;
+    height:95vh;
+    
+    color: aliceblue;
+
+}
+.main h3{
+    font-size: 2.5rem;
+    font-weight: 90;
+    line-height: 1.25;
+    font-family: cursive;
+
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    line-height: 1;
+    border-bottom: 3px solid aliceblue;
+    width: 61%;
+    font-family: cursive;
+}
+.bt1{
+    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+}
+.bt2{
+    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+}
+.main .bt1:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.main .bt2:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.about img{
+    -webkit-box-shadow: -200px -200px 39px -160px rgba(NaN,NaN,14,1);
+    -moz-box-shadow: -200px -200px 39px -160px rgba(NaN,NaN,14,1);
+    box-shadow: -200px -200px 39px -160px rgba(NaN,NaN,14,1);
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+    margin: 10px;
+}
+h1{
+    font-size: 3rem ;
+    font-weight: 900;
+    color: aliceblue;
+}
+.progress{
+    background-color: rgb(133, 130, 136);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width:100%;
+    border: white 1px solid;
+    overflow: hidden;
+    -webkit-box-shadow: -24px -66px 69px -138px rgba(NaN,NaN,14,1);
+-moz-box-shadow: -24px -66px 69px -138px rgba(NaN,NaN,14,1);
+box-shadow: -24px -66px 69px -138px rgba(NaN,NaN,14,1);
+
+}
+.pro-value1{
+    animation: load 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+.progress p{
+    color:aliceblue;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 2.5px;
+}
+
+@keyframes load{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.pro-value2{
+    animation: load1 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.pro-value2{
+    animation: load2 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.pro-value3{
+    animation: load3 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+.pro-value4{
+    animation: load4 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+
+
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.pro-value5{
+    animation: load5 3s forwards;
+    color: rgb(71, 66, 137);
+    border-radius: 50px;
+    background-color:#12061e; 
+    height: 25px;
+     width: 0;
+
+
+}
+
+
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.bt1{
+    background-color: aliceblue;
+    height: 50px;
+    width: 105px;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    justify-content: center;
+    /* align-items: center; */
+}
+.bt1:hover{
+    background-color: transparent;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.bt2{
+    background-color: aliceblue;
+    height: 50px;
+    width: 105px;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    justify-content: center;
+    /* align-items: center; */
+}
+.bt2:hover{
+    background-color: transparent;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.buttons{
+    align-items: center;
+    padding-left: 35%;
+    display: flex;
+    gap: 10px;
+}
